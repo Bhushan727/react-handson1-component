@@ -14,7 +14,7 @@ class RCard extends React.Component{
     render(){
         return(
             <div className="cards" style={{backgroundColor:'darkorchid'}}>
-            <h1 style={this.styles.h1S}>This is created using functional Component</h1>
+            <h1 style={this.styles.h1S}>This is created using Class Component</h1>
             <p style={this.styles.pStl}>This is done using external CSS</p>
             <p style={{color:"blue"}}>This is done using inline CSS</p>
         </div>
